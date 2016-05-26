@@ -1,6 +1,7 @@
 ## Sky Technology Unattended Programming Test Submission
 
 ### API
+  cd api
 
 ##### Build
   npm install
@@ -13,7 +14,8 @@
   PORT=3001 npm start
 
 ### Client
-
+  cd client
+  
 ##### Build
   npm install
   API_URL=http://localhost:3001 npm run build

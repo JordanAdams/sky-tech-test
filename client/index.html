@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sky Product Selection Unattended Test</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+    <style>
+      body {
+        font: 14px 'Roboto', Arial, Sans-Serif;
+        width: 960px;
+        margin: 100px auto;
+      }
+
+      h1 {
+        font-weight: 300;
+        color: #888;
+      }
+
+      h2 {
+        font-weight: 400;
+        margin-top: 0;
+      }
+
+      .product-selector {
+        display: flex;
+      }
+
+      .product-selector section {
+        flex-grow: 1;
+        margin-right: 20px;
+      }
+
+      .product-selector section:last-child {
+        margin-right: 0;
+      }
+
+      .shadow-box {
+        border: solid 1px #eee;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+      }
+
+      .checkout {
+        text-align: center;
+        border-radius: 5px;
+        display: block;
+        padding: 15px;
+        background: #bada55;
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script src="/dist/app.js"></script>
+  </body>
+</html>
